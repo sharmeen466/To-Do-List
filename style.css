@@ -8,19 +8,19 @@
 body {
     background: url(./assets/pink-7761356_1280.png) fixed no-repeat;
     background-size: cover;
-    font-size: large;
-    font-size: 3rem;
     color: rgb(247, 93, 119);
+    font-size: 3rem;
 }
 
 h1 {
+    padding-bottom: 30px;
     font-family: dancing script;
     text-shadow: 5px 5px 5px black;
 }
 
 #input1 {
     height: 40px;
-    width: 34vw;
+    width: 60vw;
     border: 2px solid rgb(250, 180, 180);
     border-radius: 10px;
     padding: 10px;
@@ -46,13 +46,9 @@ h1 {
     text-align: center;
 }
 
-ol {
-    font-size: 1rem;
-}
-
 li {
     height: 35px;
-    width: 40vw;
+    width: 70vw;
     background-color: white;
     border: 2px solid rgb(250, 180, 180);
     margin-top: 10px;
@@ -68,4 +64,48 @@ li {
     color: rgb(224, 15, 50);
     font-size: 1.2rem;
     text-align: start;
+}
+
+/* media queries */
+@media screen and (max-width: 500px){
+    body{
+        font-size: 1.8rem;
+    }
+    #input1 {
+        height: 35px;
+    }
+    #btn {
+        padding: 5px 15px;
+        font-size: 1rem;
+    }
+    li {
+        height: 30px;
+        width: 80vw;
+    }
+    
+    #list {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 499.9px) and (max-width: 800px){
+    body{
+        font-size: 2.5rem;
+    }
+    #input1 {
+        height: 40px;
+        width: 80vw;
+    }
+    #btn {
+        padding: 5px 15px;
+        font-size: 1.1rem;
+    }
+    li {
+        height: 35px;
+        width: 90vw;
+    }
+    
+    #list {
+        font-size: 1.1rem;
+    }
 }
