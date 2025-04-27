@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: robotto;
+}
+
+body {
+    background: url(./assets/pink-7761356_1280.png) fixed no-repeat;
+    background-size: cover;
+    font-size: large;
+    font-size: 3rem;
+    color: rgb(247, 93, 119);
+}
+
+h1 {
+    font-family: dancing script;
+    text-shadow: 5px 5px 5px black;
+}
+
+#input1 {
+    height: 40px;
+    width: 34vw;
+    border: 2px solid rgb(250, 180, 180);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+    outline: none;
+    color: rgb(248, 2, 43);
+}
+
+#input1:hover {
+    border: 2px solid rgb(228, 128, 145);
+}
+
+#btn {
+    padding: 6px 20px;
+    border: 2px solid rgb(233, 89, 89);
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(247, 90, 116);
+    font-size: 1.2rem;
+}
+
+#todoList {
+    text-align: center;
+}
+
+ol {
+    font-size: 1rem;
+}
+
+li {
+    height: 35px;
+    width: 40vw;
+    background-color: white;
+    border: 2px solid rgb(250, 180, 180);
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(224, 15, 50);
+    font-size: 1.2rem;
+    text-align: start;
+}
