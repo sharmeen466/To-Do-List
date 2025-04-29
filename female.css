@@ -10,6 +10,14 @@ body {
     background-size: cover;
     color: rgb(247, 93, 119);
     font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+#task{
+    width: 60rem;
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
@@ -19,23 +27,23 @@ h1 {
 }
 
 #input1 {
-    width: 45vw;
+    width: 54vw;
     border: 2px solid rgb(250, 180, 180);
-    border-radius: 10px;
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     padding: 10px;
     font-size: 1.2rem;
     outline: none;
     color: rgb(248, 2, 43);
 }
 
-#input1:hover {
-    border: 2px solid rgb(228, 128, 145);
-}
-
 #btn {
     padding: 6px 15px;
-    border: 2px solid rgb(233, 89, 89);
-    border-radius: 10px;
+    border: 2px solid rgb(250, 180, 180);
+    border-left: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     color: white;
     background-color: rgb(247, 90, 116);
     font-size: 1.2rem;
@@ -70,9 +78,9 @@ h1 {
 
 li {
     width: 50vw;
-    background-color: white;
+    background-color:rgb(252, 221, 221) ;
     padding: 5px 15px;
-    border: 2px solid rgb(250, 180, 180);
+    border: 2px solid rgb(252, 205, 205);
     margin-top: 10px;
     border-radius: 10px;
     display: flex;
@@ -83,7 +91,6 @@ li {
 
 #list {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
     color: rgb(224, 15, 50);

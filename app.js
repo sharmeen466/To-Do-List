@@ -2,7 +2,6 @@ const btn = document.getElementById("btn")
 const list = document.getElementById("list")
 const input = document.getElementById("input1")
 
-
 btn.addEventListener("click", function () {
     if (input.value === "") {
         Swal.fire({
@@ -17,7 +16,6 @@ btn.addEventListener("click", function () {
     }
     else {
         const li = document.createElement("li")
-        // const container = document.createElement("div")
         const deleteBtn = document.createElement("button")
         deleteBtn.textContent = "X"
         deleteBtn.classList.add("delete")
@@ -41,6 +39,8 @@ btn.addEventListener("click", function () {
         mark.addEventListener("click", function () {
             li.classList.toggle("disable")
         })
-        
+        edit.addEventListener("click", function(){
+            console.log(edit); 
+        })
     }
 })
