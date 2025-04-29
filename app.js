@@ -26,12 +26,14 @@ btn.addEventListener("click", function () {
         edit.classList.add("editBtn")
         const mark = document.createElement("input")
         mark.type = "checkbox"
-
+        const div = document.createElement("div")
+        
         li.textContent = input.value
         list.appendChild(li);
-        li.appendChild(mark);
-        li.appendChild(edit)
-        li.appendChild(deleteBtn)
+        div.appendChild(mark);
+        div.appendChild(edit)
+        div.appendChild(deleteBtn)
+        li.appendChild(div)
         input.value = ""
         deleteBtn.addEventListener("click", function () {
             li.classList.toggle("remove")

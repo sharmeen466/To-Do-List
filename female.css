@@ -76,6 +76,7 @@ li {
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 5px 15px;
 }
 
