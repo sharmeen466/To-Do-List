@@ -87,7 +87,7 @@ li {
 }
 
 /* media queries */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 520px) {
     body {
         font-size: 1.8rem;
     }
@@ -114,7 +114,7 @@ li {
     }
 }
 
-@media (min-width: 499.9px) and (max-width: 800px) {
+@media (min-width: 520px) and (max-width: 800px) {
     body {
         font-size: 2.5rem;
     }
