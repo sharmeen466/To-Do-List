@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: robotto;
+}
+
+body {
+    background: url(./assets/dark-2569014_1280.jpg) fixed no-repeat;
+    background-size: cover;
+    background-color: rgb(66, 65, 66);
+    background-blend-mode: lighten;
+    font-size: 3rem;
+    color: white;
+}
+
+h1 {
+    padding-bottom: 30px;
+    /* font-family: dancing script; */
+    text-shadow: 5px 5px 5px black;
+}
+
+#input1 {
+    height: 40px;
+    width: 45vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+#btn {
+    padding: 6px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+
+.delete {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.editBtn {
+    background: none;
+    border: none;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.disable {
+    color: rgb(124, 122, 122);
+    text-decoration: line-through black;
+
+}
+
+#todoList {
+    text-align: center;
+}
+
+li {
+    height: 35px;
+    width: 50vw;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-size: 1.2rem;
+    text-align: start;
+}
+
+.remove {
+    display: none;
+}
+
+/* media queries */
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 1.8rem;
+    }
+
+    #input1 {
+        height: 35px;
+    }
+
+    #btn {
+        padding: 5px 15px;
+        font-size: 1rem;
+    }
+
+    li {
+        height: 30px;
+        width: 75vw;
+    }
+
+    #list {
+        font-size: 1.2rem;
+    }
+
+    .delete {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 499.9px) and (max-width: 800px) {
+    body {
+        font-size: 2.5rem;
+    }
+
+    #input1 {
+        height: 40px;
+        width: 50vw;
+    }
+
+    #btn {
+        padding: 5px 15px;
+        font-size: 1.1rem;
+    }
+
+    li {
+        height: 35px;
+        width: 65vw;
+    }
+
+    #list {
+        font-size: 1.1rem;
+    }
+}
