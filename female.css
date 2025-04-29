@@ -19,7 +19,7 @@ h1 {
 }
 
 #input1 {
-    height: 40px;
+    /* height: 40px; */
     width: 45vw;
     border: 2px solid rgb(250, 180, 180);
     border-radius: 10px;
@@ -55,7 +55,7 @@ h1 {
     border: none;
     color: rgb(236, 154, 168);
     font-size: 1.3rem;
-    padding-left: 10px;
+    padding:0px 10px;
     cursor: pointer;
 }
 
@@ -70,14 +70,13 @@ h1 {
 }
 
 li {
-    height: 35px;
     width: 50vw;
     background-color: white;
     border: 2px solid rgb(250, 180, 180);
     margin-top: 10px;
     border-radius: 10px;
-        display: flex;
-        justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
     padding: 5px 15px;
 }
 
@@ -101,17 +100,16 @@ li {
         font-size: 1.8rem;
     }
 
-    #input1 {
-        height: 35px;
-    }
-
     #btn {
         padding: 5px 15px;
         font-size: 1rem;
     }
 
+    #input1 {
+        width: 70vw;
+    }
+
     li {
-        height: 30px;
         width: 75vw;
     }
 
@@ -130,8 +128,7 @@ li {
     }
 
     #input1 {
-        height: 40px;
-        width: 50vw;
+        width: 70vw;
     }
 
     #btn {
@@ -140,8 +137,11 @@ li {
     }
 
     li {
-        height: 35px;
-        width: 65vw;
+        width: 70vw;
+    }
+
+    #input1 {
+        width: 70vw;
     }
 
     #list {

@@ -16,12 +16,10 @@ body {
 
 h1 {
     padding-bottom: 30px;
-    /* font-family: dancing script; */
     text-shadow: 5px 5px 5px black;
 }
 
 #input1 {
-    height: 40px;
     width: 45vw;
     border: 2px solid black;
     border-radius: 10px;
@@ -50,7 +48,7 @@ h1 {
     background: none;
     border: none;
     font-size: 1.3rem;
-    padding-left: 10px;
+    padding:0px 10px;
     cursor: pointer;
 }
 
@@ -65,7 +63,6 @@ h1 {
 }
 
 li {
-    height: 35px;
     width: 50vw;
     background-color: white;
     margin-top: 10px;
@@ -95,17 +92,16 @@ li {
         font-size: 1.8rem;
     }
 
-    #input1 {
-        height: 35px;
-    }
-
     #btn {
         padding: 5px 15px;
         font-size: 1rem;
     }
 
+    #input1 {
+        width: 70vw;
+    }
+
     li {
-        height: 30px;
         width: 75vw;
     }
 
@@ -124,8 +120,7 @@ li {
     }
 
     #input1 {
-        height: 40px;
-        width: 50vw;
+        width: 70vw;
     }
 
     #btn {
@@ -134,8 +129,11 @@ li {
     }
 
     li {
-        height: 35px;
-        width: 65vw;
+        width: 70vw;
+    }
+
+    #input1 {
+        width: 70vw;
     }
 
     #list {

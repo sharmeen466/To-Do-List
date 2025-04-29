@@ -38,8 +38,6 @@ btn.addEventListener("click", function () {
         })
         mark.addEventListener("click", function () {
             li.classList.toggle("disable")
-            // li.classList.remove("remove")
         })
     }
 })
-
