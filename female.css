@@ -19,7 +19,6 @@ h1 {
 }
 
 #input1 {
-    /* height: 40px; */
     width: 45vw;
     border: 2px solid rgb(250, 180, 180);
     border-radius: 10px;
@@ -137,7 +136,7 @@ li {
     }
 
     li {
-        width: 70vw;
+        /* width: 70vw; */
     }
 
     #input1 {
