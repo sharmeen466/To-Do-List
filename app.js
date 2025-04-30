@@ -16,7 +16,7 @@ btn.addEventListener("click", function () {
     }
     else {
         let li = document.createElement("li")
-        
+
         const deleteBtn = document.createElement("button")
         deleteBtn.textContent = "X"
         deleteBtn.classList.add("delete")
@@ -47,6 +47,25 @@ btn.addEventListener("click", function () {
             console.log(edit);
              input.value = li.firstChild.textContent
              li.classList.add("remove")
+        })
+        mark.addEventListener("click", function(){
+            console.log(mark);
+            mark.disabled = true
+            Swal.fire({
+
+                icon: "success",
+                title: "Your work has been completed",
+                background: "transparent",
+                color: "white",
+                showConfirmButton: false,
+                timer: 1500,
+                backdrop: `
+                  rgba(0,0,123,0.4)
+                  url("./assets/party.gif")
+                  center
+                  no-repeat
+                `
+              });
         })
     }
 })
