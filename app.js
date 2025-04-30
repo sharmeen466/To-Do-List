@@ -15,15 +15,19 @@ btn.addEventListener("click", function () {
         });
     }
     else {
-        const li = document.createElement("li")
+        let li = document.createElement("li")
+        
         const deleteBtn = document.createElement("button")
         deleteBtn.textContent = "X"
         deleteBtn.classList.add("delete")
+
         const edit = document.createElement("button")
         edit.textContent = "Edit"
         edit.classList.add("editBtn")
+
         const mark = document.createElement("input")
         mark.type = "checkbox"
+
         const div = document.createElement("div")
         
         li.textContent = input.value
@@ -40,7 +44,9 @@ btn.addEventListener("click", function () {
             li.classList.toggle("disable")
         })
         edit.addEventListener("click", function(){
-            console.log(edit); 
+            console.log(edit);
+             input.value = li.firstChild.textContent
+             li.classList.add("remove")
         })
     }
 })
