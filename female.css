@@ -6,6 +6,7 @@
 }
 
 body {
+    overflow: hidden;
     background: url(./assets/pink-7761356_1280.png) fixed no-repeat;
     background-size: cover;
     color: rgb(247, 93, 119);
